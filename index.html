@@ -3,10 +3,138 @@
 <html>
   <head>
     <title> Empower Us </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="icon" type="image/x-icon" href="images/demo/favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="icon" type="image/x-icon" href="images/demo/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Raleway&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+      body {
+        background-color: white;
+        color: black;
+      }
+  
+      p {
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 100px;
+      }
+
+      .btn-primary {
+        background-color: #B0CA35;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding: 20px;
+        width: 220px;
+        height: 70px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 30px;
+      }
+
+      .fact {
+        
+      }
+
+      .btn-primary:hover {
+        background-color: #c3e038;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding: 20px;
+        width: 220px;
+        height: 70px;
+        text-align: center;
+        font-size: 20px;
+       /*  margin-right: 30px; */
+      }
+
+      .circleBase {
+        border-radius: 50%;
+      }
+      
+      .circle1 {
+        width: 300px;
+        height: 300px;
+        background: #B0CA35;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+
+      .circle1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .circle3 {
+        width: 300px;
+        height: 300px;
+        background: #B0CA35;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+
+      .circle3:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .circle2 {
+        width: 300px;
+        height: 300px;
+        background: #B0CA35;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+
+      .circle2:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+
+      .pTag-mission {
+        margin-inline-end: 200px;
+        margin-inline-start: 200px;
+        margin-top: 30px;
+        font-size: 17px;
+      }
+
+      h1 {
+        font-family: 'EB Garamond', serif;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .pTag-what {
+        margin-inline-end: 200px;
+        margin-inline-start: 200px;
+        margin-top: 30px;
+        font-size: 17px;
+      }
+
+      .pTag-why {
+        margin-inline-end: 200px;
+        margin-inline-start: 200px;
+        margin-top: 30px;
+        font-size: 17px;
+      }
+
+      .bg-home {
+        background-image: url("images/demo/backgrounds/missionstatement.png");
+        background-color: #cccccc;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+    </style>
   </head>
   
   <body id="top">
@@ -37,7 +165,7 @@
                     <fieldset>
                       <legend>Quick Search:</legend>
                       <input type="text" placeholder="Enter search term&hellip;">
-                      <button type="submit"><i class="fas fa-search"></i></button>
+                      <button type="submit"><i class="fas fa-search btn btn-primary"></i></button>
                     </fieldset>
                   </form>
                 </div>
@@ -68,7 +196,7 @@
         </div>
           <nav id="mainav" class="fl_right">
             <ul class="clear">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li style="color: #5cba25"><a href="index.html">Home</a></li>
               <li><a class="drop" href="#">Pages</a>
                 <ul>
                   <li><a href="pages/gallery.html">Gallery</a></li>
@@ -108,143 +236,44 @@
             <p>Experiencing domestic abuse, rape, and child abuse is extremely traumatizing and difficult. We are here to help women who are experiencing problems and don't know who to reach out to. We are here for you.  </p>
             <footer>
               <ul class="nospace inline pushright">
-                <li><a class="btn" href="form.html">I NEED HELP NOW</a></li>
-                <li><a class="btn inverse" href="#">LOGIN/SIGN-UP</a></li>
+                <li><a class="btn btn-primary" href="form.html">I NEED HELP NOW</a></li>
+                <li><a class="btn btn-primary inverse" href="#">LOGIN/SIGN-UP</a></li>
               </ul>
             </footer>
           </article>
         </div>
       </div>
     </div>
-  <!-- End Top Background Image Wrapper -->  
-  <div class="wrapper row3">
-    <main class="hoc container clear"> 
-      <!-- main body -->
-  
-     <!--  <section id="introblocks">
-       
-      </section> -->
-  
-      <!-- / main body -->
-      <div class="clear"></div>
-    </main>
-  </div>
-  <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
-    <section id="services" class="hoc container clear"> 
-  
-      <div class="sectiontitle">
-        <p class="nospace font-xs">Lacus ligula tincidunt consectetuer</p>
-        <h6 class="heading font-x2">Integer mattis ligula ipsum</h6>
+
+    <div class = "bg-home overlay">
+      <br>
+      <br>
+      <br>
+      <!-- Mission Statement! -->
+      <div>
+        <h1>Our Mission</h1>
+        <p class = "pTag-mission">
+         Our goal was to create something to empower women and girls all around the world. Many women don't know that there is help available. They don't know what do do when something terrible happens to do them. We aimed to create something to help women in situations such as domestic violence, rape and child abuse.
+        </p>
       </div>
-      <ul class="nospace group elements elements-three">
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-credit-card"></i></a></footer>
-              <h6 class="heading">Donec ullamcorper nisi lectus curabitur</h6>
-            </div>
-            <p>Aliquam id imperdiet nec odio proin luctus consequat est phasellus sed libero vitae turpis dignissim varius nullam eu tellus aenean sit amet risus fusce.</p>
-            <p><a href="#">Varius cursus ante</a></p>
-          </article>
-        </li>
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-compress"></i></a></footer>
-              <h6 class="heading">Ultrices posuere cubilia curae feugiat</h6>
-            </div>
-            <p>Sit amet augue lobortis risus imperdiet blandit nullam vitae dui fusce gravida sem ac auctor eleifend sapien dui convallis erat a cursus velit diam et.</p>
-            <p><a href="#">Morbi at lorem ut</a></p>
-          </article>
-        </li>
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-futbol"></i></a></footer>
-              <h6 class="heading">Ipsum primis faucibus in orci luctus et</h6>
-            </div>
-            <p>Urna suspendisse suscipit metus vel sem integer porta in hac habitasse platea dictumst aliquam quis nunc aenean augue proin molestie erat in rhoncus.</p>
-            <p><a href="#">Molestie ultricies quam</a></p>
-          </article>
-        </li>
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-fire-extinguisher"></i></a></footer>
-              <h6 class="heading">Nec sem donec ut augue vestibulum ante</h6>
-            </div>
-            <p>Posuere nibh quam consectetuer lectus ac vulputate ligula lorem ut dolor morbi ut risus nec orci bibendum commodo integer sem nisl mollis ut ornare eu.</p>
-            <p><a href="#">Aenean tincidunt turpis</a></p>
-          </article>
-        </li>
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-medkit"></i></a></footer>
-              <h6 class="heading">Commodo elit eget erat tellus nullam</h6>
-            </div>
-            <p>Lobortis eget ante mauris tempor suspendisse nulla donec tincidunt tellus ac quam in eget risus phasellus faucibus adipiscing velit maecenas volutpat.</p>
-            <p><a href="#">Vel ante donec tortor</a></p>
-          </article>
-        </li>
-        <li class="one_third">
-          <article>
-            <div>
-              <footer><a href="#"><i class="fas fa-recycle"></i></a></footer>
-              <h6 class="heading">Orci nulla sit amet lorem curabitur</h6>
-            </div>
-            <p>Aliquam leo aliquam at odio mauris egestas interdum magna libero vivamus malesuada adipiscing sapien morbi arcu pharetra eu interdum quis blandit ac.</p>
-            <p><a href="#">Neque placerat eget</a></p>
-          </article>
-        </li>
-      </ul>
-  
-    </section>
-  </div>
-  <div class="wrapper row2">
-    <section class="hoc container clear"> 
-  
-      <div class="sectiontitle">
-        <p class="nospace font-xs">Dolor a justo ut eget nibh velit</p>
-        <h6 class="heading font-x2">Iaculis cras non urna mauris</h6>
+
+      <!-- Who are we and why did we create this website -->
+      <div>
+        <h1> What is Empower US? </h1>
+        <p class = "pTag-what">
+          Empower US is a website created to help women and girls stay safe and learn what to do if something happens to them. By filling out a form, they are taken to a page with helpful advice and prevention tips. They would be able to reach out for help and plan for the future. Empower US also enables victims and survivors of abuse and violence to connect with one another, through our volunteering program and community forum. Using this platform, we can make the world a safer and happier place for women by women.
+        </p>
+
+        <br>
+        <br>
+        <br>
+        
       </div>
-      <ul class="pr-charts nospace group center">
-        <li class="pr-chart-ctrl" data-animate="false">
-          <div class="pr-chart" data-percent="25"><i></i></div>
-          <p><a class="btn" href="#">Tristique</a></p>
-        </li>
-        <li class="pr-chart-ctrl" data-animate="false">
-          <div class="pr-chart" data-percent="50"><i></i></div>
-          <p><a class="btn" href="#">Ullamcorper</a></p>
-        </li>
-        <li class="pr-chart-ctrl" data-animate="false">
-          <div class="pr-chart" data-percent="75"><i></i></div>
-          <p><a class="btn" href="#">Curabitur</a></p>
-        </li>
-        <li class="pr-chart-ctrl" data-animate="false">
-          <div class="pr-chart" data-percent="100"><i></i></div>
-          <p><a class="btn" href="#">Ultrices</a></p>
-        </li>
-      </ul>
+      
+    </div>
+
   
-    </section>
-  </div>
-  <div class="wrapper row3">
-    <section class="hoc container clear shout"> 
-  
-      <div class="sectiontitle">
-        <p class="nospace font-xs">Mollis auctor  non nisl mauris</p>
-        <h6 class="heading font-x2">Vitae viverra nam sodales</h6>
-      </div>
-      <figure class="one_half first"><img src="images/demo/546x356.png" alt="">
-        <figcaption class="heading"><a href="#">Turpis convallis</a></figcaption>
-      </figure>
-      <figure class="one_half"><img src="images/demo/546x356.png" alt="">
-        <figcaption class="heading"><a href="#">Quisque dignissim</a></figcaption>
-      </figure>
-  
-    </section>
-  </div>
+
   <div class="wrapper coloured">
     <article id="cta" class="hoc container clear"> 
   
@@ -329,14 +358,17 @@
   
     </div>
   </div>
+  
+    
   <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
-  <!-- JAVASCRIPTS -->
-  <script src="layout/scripts/jquery.min.js"></script>
-  <script src="layout/scripts/jquery.backtotop.js"></script>
-  <script src="layout/scripts/jquery.mobilemenu.js"></script>
-  <!-- Homepage specific -->
-  <script src="layout/scripts/jquery.easypiechart.min.js"></script>
-  <!-- / Homepage specific -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- JAVASCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="../layout/scripts/jquery.min.js"></script>
+  <script src="../layout/scripts/jquery.backtotop.js"></script>
+  <script src="../layout/scripts/jquery.mobilemenu.js"></script>
   
   </body>
 </html>

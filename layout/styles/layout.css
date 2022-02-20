@@ -347,8 +347,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 
 
 .coloured{color:#FFFFFF; background-color:#B0CA35;}
-.coloured .btn{color:#B0CA35; background-color:#FFFFFF;}
-.coloured .btn:hover{color:inherit; background-color:transparent; border-color:inherit;} */
 
 .imgover:hover::before{background-color:rgba(176,202,53,.3);/* #B0CA35 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
